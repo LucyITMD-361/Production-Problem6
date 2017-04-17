@@ -3,6 +3,7 @@
   list-style-type: none;
   padding: 0;
   overflow: hidden;
+  position: relative;
   width: 100%;
   background-color:blue;
   margin: 0 auto;
@@ -21,9 +22,11 @@
 }
 #onpage a{
   display:block;
-  background-color: #000;
   text-decoration: underline overline;
  }
+#onpage a:hover{
+  background-color: #000;
+}
 
 #sidebar ul{
   list-style-type: none;
@@ -42,4 +45,7 @@
   padding: 15px 0;
   color: #fff;
   text-decoration: none;
+}
+#sidebar-container a:hover{
+   background-color: #000;
 }
